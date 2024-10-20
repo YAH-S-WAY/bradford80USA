@@ -1,5 +1,5 @@
    #Equations#
-:(\sqrt{x} = 3 )( \sqrt{x(x-2)} = x + 1 ).Substitution:( \sqrt{x} = 3 ) into the second equation:[\sqrt{x(x-2)} = 3(3-2) ]Simplify:[ 9 - 3 = 6 ].Solving the Quadratic:Set up the equation:[x(x-2)=36]
+:(\sqrt{x} = 3 )( \sqrt{x(x-2)} = x + ```1. Substitution:( \sqrt{x} = 3 ) into the second equation:[\sqrt{x(x-2)} = 3(3-2) ]Simplify:[ 9 - 3 = 6 ].Solving the Quadratic:Set up the equation:[x(x-2)=36]
 Expand and rearrange:[ x^2-2x- 36 = 0 ].Factorize:[(x+6)(x-6)=0].Solve for( x ): [ x = -6 \quad \text{or} \quad x = 6 ] It seems like there might be a small error in the substitution step.The correct substitution should be:[\sqrt{x(x-2)}=x+1].Given(\sqrt{x}=3),then (x=9).Substituting(x=9)
  into the second equation:[ \sqrt{9(9-2)} = 9 + 1 ].This simplifies to:[ \sqrt{63} = 10 ].Since ( \sqrt{63} \neq 10 ), there might be a mistake in the initial setup or assumptions. Let’s re-evaluate the problem. 
 If you need further assistance or have another approach in mind, feel free to
