@@ -1,0 +1,63 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
+				"type": "array",
+					"description": "Mount points to set up when creating the container. See Docker's documentation for the --mount option for the supported syntax.",
+					"items": {
+						"type": "string"
+					}
+				},
+				"runArgs": {
+					"type": "array",
+					"description": "The arguments required when starting in the container.",
+					"items": {
+						"type": "string"
+					}
+				},
+				"shutdownAction": {
+					"type": "string",
+					"enum": [
+						"none",
+						"stopContainer"
+					],
+					"description": "Action to take when the user disconnects from the container in their editor. The default is to stop the container."
+				},
+				"overrideCommand": {
+					"type": "boolean",
+					"description": "Whether to overwrite the command specified in the image. The default is true."
+				},
+				"workspaceFolder": {
+					"type": "string",
+					"description": "The path of the workspace folder inside the container."
+				},
+				"workspaceMount": {
+					"type": "string",
+					"description": "The --mount parameter for docker run. The default is to mount the project folder at /workspaces/$project."
+				}
+			}
+		},
+		"dockerfileContainer": {
+			"oneOf": [
+				{
+					"type": "object",
+					"properties": {
+						"build": {
+							"type": "object",
+							"description": "Docker build-related options.",
+							"allOf": [
+								{
+									"type": "object",
+									"properties": {
+										"dockerfile": {
+											"type": "string",
+											"description": "The location of the Dockerfile that defines the contents of the container. The path is relative to the folder containing the `devcontainer.json` file."
+										},
+										"context": {
+											"type": "string",
+											"description": "The location of the context folder for building the Docker image. The path is relative to the folder containing the `devcontainer.json` file."
+										}
+									},
+									"required": [
+										gh pr checkout 10e0c49fb7d35f8295d36ba432eedf415ebdcd74a
