@@ -1421,34 +1421,21 @@ Emitted when an error occurs. Errors may have a `.code` property, matching one
 of the string values defined below under [Error codes](#error-codes).
 
 ### Event: 'message'
-
 - `data` {ArrayBuffer|Blob|Buffer|Buffer[]}
 - `isBinary` {Boolean}
-
 Emitted when a message is received. `data` is the message content. `isBinary`
 specifies whether the message is binary or not.
-
 ### Event: 'open'
-
 Emitted when the connection is established.
-
 ### Event: 'ping'
-
 - `data` {Buffer}
-
 Emitted when a ping is received.
-
 ### Event: 'pong'
-
 - `data` {Buffer}
-
 Emitted when a pong is received.
-
 ### Event: 'redirect'
-
 - `url` {String}
 - `request` {http.ClientRequest}
-
 Emitted before a redirect is followed. `url` is the redirect URL. `request` is
 the HTTP GET request with the headers queued. This event gives the ability to
 inspect confidential headers and remove them on a per-redirect basis using the
@@ -1456,11 +1443,554 @@ inspect confidential headers and remove them on a per-redirect basis using the
 object should be used only for this purpose. When there is at least one listener
 for this event, no header is removed by default, even if the redirect is to a
 different domain.
-
-### Event: 'unexpected-response'
-
+ Event: 'unexpected-response'
 - `request` {http.ClientRequest}
 - `response` {http.IncomingMessage}
-
 Emitted whe
+<?yahxml.version="1.0"encoding="UTF-8"?>
+<root></root><?yahxml.version="1.0"encoding="UTF-8"?>
+<root>
+  <<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>>
+    <<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>"ABC"
+</<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>
+  </<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>>
+  <<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>.<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>></<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>.<?xml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>
+  <1>∅</1>
+</root>[0].root<?yahxml version="1.0"encoding="UTF-8"?>
+<root>
+  <element array="true">
+    <root>∅</rootUTF-8<?yahxml.version="1.0"encoding="UTF-8"?>
+{
+   $npm install --global smee-client
+$ smee -U https://smee.io/gSq8Bz0iHc2aqWx
+    $smee --help
+      $npm install --save smee - client
+  const smeeClient = required('smee-Client')
+        const smee = new smee client({
+                                    source:'https://smee.io/gSq8Bz0iHc2aq
+                                    Target:'https://localhost:3000/events',
+                                    logger: console
+})
+const events = smee.start()
+//stop forward events 
+events close()
+        "version": "2.12.4",
+        "build": {
+                "latest": true,
+                "rootDistro": "debian",
+                "tags": [
+                        "universal:${VERSION}-focal",
+                        "universal:${VERSION}-linux",
+                        "universal:${VERSION}"
+                ]
+        },
+        "dependencies": {
+                "annotation": "This document describes the base contents of the Universal image. Note that this image also includes detection logic to dynamically install additional language / runtime versions based on your repository's contents. Dynamically installed content can be found in sub-folders under `/opt`.",
+                "image": "ubuntu:focal",
+                "imageLink": "https://hub.docker.com/_/ubuntu",
+                "apt": [
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-cli",
+                                "annotation": "Docker CLI"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-engine",
+                                "annotation": "Docker Engine"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "git-lfs",
+                                "annotation": "Git Large File Support"
+                        },
+                        "cmake",
+                        "build-essential",
+                        "cmake",
+                        "cppcheck",
+                        "valgrind",
+                        "lldb",
+                        "llvm",
+                        "gdb",
+                        "clang",
+                        "python3-dev",
+                        "vim",
+                        "vim-doc",
+                        "xtail",
+                        "software-properties-common",
+                        "libsecret-1-dev",
+                        "libnss3",
+                        "libnspr4",
+                        "libatk-bridge2.0-0",
+                        "libatk1.0-0",
+                        "libx11-6",
+                        "libpangocairo-1.0-0",
+                        "libx11-xcb1",
+                        "libcups2",
+                        "libxcomposite1",
+                        "libxdamage1",
+                        "libxfixes3",
+                        "libpango-1.0-0",
+                        "libgbm1",
+                        "libgtk-3-0",
+                        "openssh-server",
+                        "lxc",
+                        "pigz",
+                        "iptables",
+                        "tar",
+                        "g++",
+                        "gcc",
+                        "libc6-dev",
+                        "make",
+                        "pkg-config",
+                        "sed",
+                        "python3-minimal"
+                ],
+                "pipx": [
+                        "pylint",
+                        "flake8",
+                        "autopep8",
+                        "black",
+                        "yapf",
+                        "mypy",
+                        "pydocstyle",
+                        "pycodestyle",
+                        "bandit",
+                        "virtualenv",
+                        "pipx"
+                ],
+                "git": {
+                        "Oh My Zsh!": "/home/codespace/.oh-my-zsh",
+                        "nvm": "/usr/local/share/nvm",
+                        "nvs": "/usr/local/nvs",
+                        "rbenv": "/usr/local/share/rbenv",
+                        "ruby-build": "/usr/local/share/ruby-build"
+                },
+                "gem": [
+                        "rake",
+                        "ruby-debug-ide",
+                        "debase",
+                        "jekyll"
+                ],
+                "go": {
+                        "golang.org/x/tools/gopls": null,
+                        "honnef.co/go/tools": null,
+                        "golang.org/x/lint": null,
+                        "github.com/mgechev/revive": null,
+                        "github.com/uudashr/gopkgs": null,
+                        "github.com/ramya-rao-a/go-outline": null,
+                        "github.com/go-delve/delve": null,
+                        "github.com/golangci/golangci-lint": null
+                },
+                "pip": [
+                        "numpy",
+                        "pandas",
+                        "scipy",
+                        "matplotlib",
+                        "seaborn",
+                        "scikit-learn",
+                        "torch",
+                        "requests",
+                        "plotly",
+                        "jupyterlab_git",
+                        "certifi",
+                        "setuptools",
+                        "wheel"
+                ],
+                "other": {
+                        "git": {},
+                        "Xdebug": {
+                                "path": "/usr/local/php/current"
+                        },
+                        "Composer": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/php/current/bin"
+                        },
+                        "kubectl": null,
+                        "Helm": null,
+                        "Docker Compose": null,
+                        "SDKMAN!": null,
+                        "rvm": null,
+                        "GitHub CLI": null,
+                        "yarn": {
+                                "cgIgnore": true,
+                                "path": "/usr/bin"
+                        },
+                        "Maven": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/maven/current/bin"
+                        },
+                        "Gradle": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/gradle/current/bin"
+                        },
+                        "Docker (Moby) CLI & Engine": {
+                                "cgIgnore": true
+                        },
+                        "conda": {
+                                "cgIgnore": true,
+                                "path": "/opt/conda/bin"
+                        }
+                },
+                "languages": {
+                        "Node.js": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/share/nvm/versions/node | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/share/nvm/versions/node/&lt;version&gt;"
+                        },
+                        "Python": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/python | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/python/&lt;version&gt;"
+                        },
+                        "Java": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/sdkman/candidates/java | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/sdkman/candidates/java/&lt;version&gt;"
+                        },
+                        ".NET": {
+                                "cgIgnore": true,
+                                "versionCommand": "dotnet --version",
+                                "path": "/usr/share/dotnet/dotnet"
+                        },
+                        "Ruby": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/rvm/rubies | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/rvm/rubies/&lt;version&gt;"
+                        },
+                        "PHP": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/php | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/php/&lt;version&gt;"
+                        },
+                        "GCC": {
+                                "cgIgnore": true
+                        },
+                        "Clang": {
+                                "cgIgnore": true
+                        },
+                        "Go": null,
+                        "Jekyll": {
+                                "cgIgnore": true
+                        },
+                        "Jupyter Lab": {
+                                "cgIgnore": true,
+                                "versionCommand": "jupyter-lab --version",
+                                "path": "/home/codespace/.local/bin/jupyter-lab",
+                                "downloadUrl": "https://jupyter.org/"
+                        }
+                }
+        }
+}https://smee.io/gSq8Bz0iHc2aqWx{
+        "version": "2.12.4",
+        "build": {
+                "latest": true,
+                "rootDistro": "debian",
+                "tags": [
+                        "universal:${VERSION}-focal",
+                        "universal:${VERSION}-linux",
+                        "universal:${VERSION}"
+                ]
+        },
+        "dependencies": {
+                "annotation": "This document describes the base contents of the Universal image. Note that this image also includes detection logic to dynamically install additional language / runtime versions based on your repository's contents. Dynamically installed content can be found in sub-folders under `/opt`.",
+                "image": "ubuntu:focal",
+                "imageLink": "https://hub.docker.com/_/ubuntu",
+                "apt": [
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-cli",
+                                "annotation": "Docker CLI"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-engine",
+                                "annotation": "Docker Engine"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "git-lfs",
+                                "annotation": "Git Large File Support"
+                        },
+                        "cmake",
+                        "build-essential",
+                        "cmake",
+                        "cppcheck",
+                        "valgrind",
+                        "lldb",
+                        "llvm",
+                        "gdb",
+                        "clang",
+                        "python3-dev",
+                        "vim",
+                        "vim-doc",
+                        "xtail",
+                        "software-properties-common",
+                        "libsecret-1-dev",
+                        "libnss3",
+                        "libnspr4",
+                        "libatk-bridge2.0-0",
+                        "libatk1.0-0",
+                        "libx11-6",
+                        "libpangocairo-1.0-0",
+                        "libx11-xcb1",
+                        "libcups2",
+                        "libxcomposite1",
+                        "libxdamage1",
+                        "libxfixes3",
+                        "libpango-1.0-0",
+                        "libgbm1",
+                        "libgtk-3-0",
+                        "openssh-server",
+                        "lxc",
+                        "pigz",
+                        "iptables",
+                        "tar",
+                        "g++",
+                        "gcc",
+                        "libc6-dev",
+                        "make",
+                        "pkg-config",
+                        "sed",
+                        "python3-minimal"
+                ],
+                "pipx": [
+                        "pylint",
+                        "flake8",
+                        "autopep8",
+                        "black",
+                        "yapf",
+                        "mypy",
+                        "pydocstyle",
+                        "pycodestyle",
+                        "bandit",
+                        "virtualenv",
+                        "pipx"
+                ],
+                "git": {
+                        "Oh My Zsh!": "/home/codespace/.oh-my-zsh",
+                        "nvm": "/usr/local/share/nvm",
+                        "nvs": "/usr/local/nvs",
+                        "rbenv": "/usr/local/share/rbenv",
+                        "ruby-build": "/usr/local/share/ruby-build"
+                },
+                "gem": [
+                        "rake",
+                        "ruby-debug-ide",
+                        "debase",
+                        "jekyll"
+                ],
+                "go": {
+                        "golang.org/x/tools/gopls": null,
+                        "honnef.co/go/tools": null,
+                        "golang.org/x/lint": null,
+                        "github.com/mgechev/revive": null,
+                        "github.com/uudashr/gopkgs": null,
+                        "github.com/ramya-rao-a/go-outline": null,
+                        "github.com/go-delve/delve": null,
+                        "github.com/golangci/golangci-lint": null
+                },
+                "pip": [
+                        "numpy",
+                        "pandas",
+                        "scipy",
+                        "matplotlib",
+                        "seaborn",
+                        "scikit-learn",
+                        "torch",
+                        "requests",
+                        "plotly",
+                        "jupyterlab_git",
+                        "certifi",
+                        "setuptools",
+                        "wheel"
+                ],
+                "other": {
+                        "git": {},
+                        "Xdebug": {
+                                "path": "/usr/local/php/current"
+                        },
+                        "Composer": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/php/current/bin"
+                        },
+                        "kubectl": null,
+                        "Helm": null,
+                        "Docker Compose": null,
+                        "SDKMAN!": null,
+                        "rvm": null,
+                        "GitHub CLI": null,
+                        "yarn": {
+                                "cgIgnore": true,
+                                "path": "/usr/bin"
+                        },
+                        "Maven": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/maven/current/bin"
+                        },
+                        "Gradle": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/gradle/current/bin"
+                        },
+                        "Docker (Moby) CLI & Engine": {
+                                "cgIgnore": true
+                        },
+                        "conda": {
+                                "cgIgnore": true,
+                                "path": "/opt/conda/bin"
+                        }
+                },
+                "languages": {
+                        "Node.js": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/share/nvm/versions/node | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/share/nvm/versions/node/&lt;version&gt;"
+                        },
+                        "Python": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/python | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/python/&lt;version&gt;"
+                        },
+                        "Java": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/sdkman/candidates/java | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/sdkman/candidates/java/&lt;version&gt;"
+                        },
+                        ".NET": {
+                                "cgIgnore": true,
+                                "versionCommand": "dotnet --version",
+                                "path": "/usr/share/dotnet/dotnet"
+                        },
+                        "Ruby": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/rvm/rubies | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/rvm/rubies/&lt;version&gt;"
+                        },
+                        "PHP": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/php | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/php/&lt;version&gt;"
+                        },
+                        "GCC": {
+                                "cgIgnore": true
+                        },
+                        "Clang": {
+                                "cgIgnore": true
+                        },
+                        "Go": null,
+                        "Jekyll": {
+                                "cgIgnore": true
+                        },
+                        "Jupyter Lab": {
+                                "cgIgnore": true,
+                                "versionCommand": "jupyter-lab --version",
+                                "path": "/home/codespace/.local/bin/jupyter-lab",
+                                "downloadUrl": "https://jupyter.org/"
+                        }
+                }
+        }
+}https://hub.docker.com/_/ubuntuhonnef.co/go/toolsgolang.org/x/lintgolang.org/x/tools/goplsgithub.com/mgechev/revivegithub.com/golangci/golangci-lintgithub.com/ramya-rao-a/go-outlinegithub.com/uudashr/gopkgsgithub.com/go-delve/delverequire "sinatra"
+require "dotenv/load"
+require "net/http"
+require "json"
 
+CLIENT_ID = ENV.fetch("CLIENT_ID")
+CLIENT_SECRET = ENV.fetch("CLIENT_SECRET")
+
+def parse_response(response)
+  case response
+  when Net::HTTPOK
+    JSON.parse(response.body)
+  else
+    puts response
+    puts response.body
+    {}
+  end
+end
+
+def exchange_code(code)
+  params = {
+    "client_id" => CLIENT_ID,
+    "client_secret" => CLIENT_SECRET,
+    "code" => code
+  }
+  result = Net::HTTP.post(
+    URI("https://github.com/login/oauth/access_token"),
+    URI.encode_www_form(params),
+    {"Accept" => "application/json"}
+  )
+
+  parse_response(result)
+end
+
+def user_info(token)
+  uri = URI("https://api.github.com/user")
+
+  result = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
+    body = {"access_token" => token}.to_json
+
+    auth = "Bearer #{token}"
+    headers = {"Accept" => "application/json", "Content-Type" => "application/json", "Authorization" => auth}
+
+    http.send_request("GET", uri.path, body, headers)
+  end
+
+  parse_response(result)
+end
+
+get "/" do
+  link = '<a href="https://github.com/login/oauth/authorize?client_id=<%= CLIENT_ID %>">Login with GitHub</a>'
+  erb link
+end
+
+get "CALLBACK_URL" do
+  code = params["code"]
+
+  token_data = exchange_code(code)
+
+  if token_data.key?("access_token")
+    token = token_data["access_token"]
+
+    user_info = user_info(token)
+    handle = user_info["login"]
+    name = user_info["name"]
+
+    render = "Successfully authorized! Welcome, #{name} (#{handle})."
+    erb render
+  else
+    render = "Authorized, but unable to exchange code #{code} for token."
+    erb render
+  end
+end
+https://jupyter.org/response.bodyHTTP.posturi.hosthttps://api.github.com/userhttps://github.com/login/oauth/access_tokenhttps://github.com/login/oauth/authorize?client_id=You.comFrom: <Saved by Blink>
+Snapshot-Content-Location: https://you.com/search?q=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3Croot%3E%3C%2Froo&tbm=youchat&cfr=chat&cid=c0_34efab7d-e216-453d-a419-e5f2f046f4a2&chatMode=default
+Subject: <?xml version="1.0" encoding="UTF-8"?> <root></roo - You.com | AI for workplace productivity
+Date: Sat, 19 Oct 2024 13:51:17 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wFW5vRG2EFY6JOAfAMRkLlMsydeFbXazociGT4dL42----"
+
+
+------MultipartBoundary--wFW5vRG2EFY6JOAfAMRkLlMsydeFbXazociGT4dL42----
+Content-Type: text/html
+Content-ID: <frame-0AA740B31B12454BC5E7588A2C840E86@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://you.com/search?q=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3Croot%3E%3C%2Froo&tbm=youchat&cfr=chat&cid=c0_34efab7d-e216-453d-a419-e5f2f046f4a2&chatMode=default
+
+<!DOCTYPE html><html data-color-scheme="light" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-624b8caa-d006-453a-b7f1-087d41f2caf5@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-48796c64-c049-4cc8-bd20-0148bc8c24a4@mhtml.blink" /><title>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;/roo - You.com | AI for workplace productivity</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#fefefe"><meta property="og:title" content="<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+<root></roo 🔎 You.com | AI for workplace productivity"><meta property="og:type" content="website"><meta property="og:url" content="https://you.com/search?q=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3Croot%3E%3C%2Froo&amp;tbm=youchat&amp;cfr=chat&amp;cid=c0_34efab7d-e216-453d-a419-e5f2f046f4a2&amp;chatMode=default"><meta property="og:image" content="https://cdn.you.com/img/shared/ydc-og-image-rebrand.png"><meta name="twitter:title" content="<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+<root></roo 🔎 You.com | AI for workplace productivity"><meta name="twitter:site" content="@_youdotcom_"><meta property="twitter:image" content="https://cdn.you.com/img/shared/ydc-og-image-rebrand.png"><meta name="description" content="Leverage a personal AI search agent &amp; customized recommendations with You.com's AI chatbot. Converse naturally and discover the power of AI. Chat now!"><meta property="og:description" content="Leverage a personal AI search agent &amp; customized recommendations with You.com's AI chatbot. Converse naturally and discover the power of AI. Chat now!"><meta name="twitter:description" content="Leverage a personal AI search agent &amp; customized recommendations with You.com's AI chatbot. Converse naturally and discover the power of AI. Chat now!"><meta name="next-head-count" content="14"><link rel="search" type="application/opensearchdescription+xml" title="You.com" href="https://you.com/opensearch.xml"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://cdn.you.com/"><link rel="icon" type="image/png" href="https://you.com/favicon/favicon-196x196.png?v=2" sizes="196x196"><link rel="icon" type="image/png" href="https://you.com/favicon/favicon-96x96.png?v=2" sizes="96x96"><link rel="icon" type="image/png" href="https://you.com/favicon/favicon-32x32.png?v=2" sizes="32x32"><link rel="icon" type="image/png" href="https://you.com/favicon/favicon-16x16.png?v=2" sizes="16x16"><link rel="icon" type="image/png" href="https://you.com/favicon/favicon-128.png?v=2" sizes="128x128"><meta name="application-name" content="You.com"><meta name="msapplication-TileColor" content="#FFFFFF"><meta name="apple-itunes-app" content="app-id=1600782099"><link rel="preload" href="https://you.com/_next/static/css/29889e1555c51e60.css" as="style"><link rel="stylesheet" href="https://you.com/_next/static/css/29889e1555c51e60.css" data-n-g=""><link rel="preload" href="https://you.com/_next/static/css/d243c3b2dcdbc92d.css" as="style"><link rel="stylesheet" href="https://you.com/_next/static/css/d243c3b2dcdbc92d.css" data-n-p=""><link rel="preload" href="https://you.com/_next/static/css/4245e7822511e51c.css" as="style"><link rel="stylesheet" href="https://you.com/_next/static/css/4245e7822511e51c.css" data-n-p=""><link rel="stylesheet" type="text/css" href="https://you.com/_next/static/css/495b239f68de18a4.css"><link rel="stylesheet" type="text/css" href="https://you.com/_next/static/css/b6131cd85427d4ac.css"><link rel="stylesheet" type="text/css" href="https://you.com/_next/static/css/4aa6bc3763846587.css"></head><body><div id="__next"><div id="AppProvider_Wrapper"><div class="Toastify"></div><div class="_1d9u1t01 _1d9u1t02" id="chat-layout-grid"><div data-open="false" class="_140pxeb0 _1rds4kf2 _1rds4kf5 _1rds4kfa _1rds4kf4 _1rds4kff" tabindex="-1" aria-hidden="true" data-testid="chat-layout-sidebar" data-iscollapsed="true" id=":r0:" role="dialog" style="--_1rds4kf1: 225ms;"><div class="sc-8d551182-1 jpWKNK"><div class="sc-8d551182-0 hcUiEj"><div class="sc-8d551182-2 kNjIHG"><a href="https://you.com/?chatMode=default" tabindex="-1" class="sc-8d551182-3 beipxA"><svg class="sc-8d551182-8 gJizrk" viewBox="0 0 110 29" width="110" height="29" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.1088 1.47023C14.7617 0.768041 13.157 0.76804 11.8099 1.47023L2.50369 6.32129C0.965066 7.12333 0 8.71541 0 10.4517V19.3543C0 21.0905 0.965067 22.6826 2.50369 23.4847L11.8099 28.3357C12.2276 28.5534 12.67 28.7036 13.1218 28.7864V22.441C13.1218 18.7405 10.1219 15.7405 6.42132 15.7405H3.35025V14.0654H6.42132C10.1219 14.0654 13.1218 11.0655 13.1218 7.3649V4.29383H14.797V7.3649C14.797 11.0655 17.7969 14.0654 21.4975 14.0654H27.9188V10.4517C27.9188 8.71541 26.9537 7.12333 25.4151 6.32129L16.1088 1.47023ZM27.9188 15.7405H21.4975C17.7969 15.7405 14.797 18.7405 14.797 22.441V28.7864C15.2488 28.7036 15.6912 28.5534 16.1088 28.3357L25.4151 23.4847C26.9537 22.6826 27.9188 21.0905 27.9188 19.3543V15.7405Z" fill="url(#paint0_linear_2527_859)"></path><path d="M47.3882 9.83209H45.6278C45.5414 9.83209 45.4636 9.88732 45.4367 9.96946L42.9725 17.1863C42.9102 17.369 42.651 17.369 42.5887 17.1863L40.1232 9.96946C40.0948 9.88732 40.0183 9.83209 39.932 9.83209H38.1731C38.0315 9.83209 37.9323 9.97371 37.9833 10.1068L41.6838 19.9139C41.7008 19.9606 41.7008 20.0102 41.6838 20.0569L41.3609 20.9193C41.0493 21.8144 40.8171 22.1259 39.8626 22.1259H38.5101C38.3982 22.1259 38.3076 22.2166 38.3076 22.3284V23.6342C38.3076 23.746 38.3982 23.8367 38.5101 23.8367H40.5438C42.2361 23.8367 42.8394 22.7859 43.3634 21.347L47.5779 10.1068C47.6275 9.97371 47.5298 9.83209 47.3882 9.83209Z" fill="#FFFFFF"></path><path d="M52.7455 9.59842C49.6143 9.59842 47.7464 11.8544 47.7464 14.8893C47.7464 17.9241 49.6129 20.1801 52.7455 20.1801C55.8781 20.1801 57.763 17.9241 57.763 14.8893C57.763 11.8544 55.8951 9.59842 52.7455 9.59842ZM52.7455 18.4283C50.7813 18.4283 49.848 16.9696 49.848 14.8893C49.848 12.8089 50.7813 11.3502 52.7455 11.3502C54.7098 11.3502 55.6629 12.8089 55.6629 14.8893C55.6629 16.9696 54.7296 18.4283 52.7455 18.4283Z" fill="#FFFFFF"></path><path d="M67.8349 9.83209H66.1978C66.0859 9.83209 65.9953 9.92273 65.9953 10.0346V15.4331H65.9755C65.9755 17.9227 64.167 18.3702 63.3881 18.3702C61.9096 18.3702 61.2681 17.437 61.2681 16.1327V10.0346C61.2681 9.92273 61.1774 9.83209 61.0656 9.83209H59.4483C59.3364 9.83209 59.2458 9.92273 59.2458 10.0346V16.3479C59.2458 18.4297 60.3929 20.1787 62.8443 20.1787C64.2591 20.1787 65.2985 19.5202 65.9825 18.628C66.0123 18.5897 66.0732 18.6096 66.0732 18.6577V19.7425C66.0732 19.8544 66.1638 19.945 66.2757 19.945H67.8349C67.9468 19.945 68.0374 19.8544 68.0374 19.7425V10.0346C68.0374 9.92273 67.9468 9.83209 67.8349 9.83209Z" fill="#FFFFFF"></path><path d="M82.5348 16.3479H80.8566C80.7632 16.3479 80.6811 16.4116 80.6598 16.5023C80.3865 17.6947 79.5297 18.4283 78.2608 18.4283C76.4524 18.4283 75.5177 16.9696 75.5177 14.8893C75.5177 12.8089 76.4509 11.3502 78.2608 11.3502C79.5113 11.3502 80.3667 12.047 80.657 13.2026C80.6796 13.2918 80.7603 13.3527 80.8524 13.3527H82.5334C82.6609 13.3527 82.7557 13.2366 82.7331 13.112C82.3451 11.0075 80.7901 9.59984 78.2594 9.59984C75.284 9.59984 73.416 11.8558 73.416 14.8907C73.416 17.9255 75.2826 20.1815 78.2594 20.1815C80.6782 20.1815 82.338 18.7356 82.7331 16.5915C82.7557 16.4669 82.6609 16.3508 82.5334 16.3508L82.5348 16.3479Z" fill="#FFFFFF"></path><path d="M88.7858 9.59842C85.6547 9.59842 83.7867 11.8544 83.7867 14.8893C83.7867 17.9241 85.6547 20.1801 88.7858 20.1801C91.917 20.1801 93.8034 17.9241 93.8034 14.8893C93.8034 11.8544 91.9354 9.59842 88.7858 9.59842ZM88.7858 18.4283C86.8216 18.4283 85.8869 16.9696 85.8869 14.8893C85.8869 12.8089 86.8202 11.3502 88.7858 11.3502C90.7515 11.3502 91.7032 12.8089 91.7032 14.8893C91.7032 16.9696 90.7699 18.4283 88.7858 18.4283Z" fill="#FFFFFF"></path><path d="M106.617 9.59842C105.062 9.59842 104.005 10.3943 103.341 11.4451C103.32 11.4791 103.271 11.4763 103.254 11.4395C102.737 10.3391 101.738 9.59842 100.297 9.59842C98.8549 9.59842 97.9655 10.247 97.3736 11.1109C97.3452 11.152 97.2815 11.1307 97.2815 11.0812V10.0346C97.2815 9.92272 97.1908 9.83209 97.079 9.83209H95.5198C95.4079 9.83209 95.3173 9.92272 95.3173 10.0346V19.7425C95.3173 19.8544 95.4079 19.945 95.5198 19.945H97.1569C97.2687 19.945 97.3594 19.8544 97.3594 19.7425V14.344C97.3594 11.8544 98.954 11.4069 99.7513 11.4069C100.996 11.4069 101.638 12.3401 101.638 13.643V19.7425C101.638 19.8544 101.728 19.945 101.84 19.945H103.477C103.589 19.945 103.68 19.8544 103.68 19.7425V14.344C103.68 11.8544 105.274 11.4069 106.072 11.4069C107.317 11.4069 107.958 12.3401 107.958 13.643V19.7425C107.958 19.8544 108.049 19.945 108.161 19.945H109.798C109.91 19.945 110 19.8544 110 19.7425V13.4306C110 11.3488 108.833 9.59983 106.617 9.59983V9.59842Z" fill="#FFFFFF"></path><path d="M72.2491 18.0049L71.1969 17.3973C71.1544 17.3732 71.102 17.3732 71.0595 17.3973L70.0073 18.0049C69.9648 18.0289 69.9379 18.0742 69.9379 18.1238V19.3389C69.9379 19.3885 69.9648 19.4338 70.0059 19.4579L71.0581 20.0654C71.0794 20.0767 71.1034 20.0838 71.1261 20.0838C71.1488 20.0838 71.1728 20.0781 71.1941 20.0654L72.2463 19.4579C72.2888 19.4338 72.3143 19.387 72.3143 19.3389V18.1238C72.3143 18.0742 72.2888 18.0289 72.2463 18.0049H72.2491Z" fill="#FFFFFF"></path><defs><linearGradient id="paint0_linear_2527_859" x1="27.9188" y1="0.943588" x2="0.076117" y2="28.8623" gradientUnits="userSpaceOnUse"><stop offset="0.15" stop-color="#A0A4EE"></stop><stop offset="0.8" stop-color="#596CED"></stop></linearGradient></defs></svg></a><span data-state="closed" tabindex="-1"><button class="sc-da0402de-1 dwsTsy sc-8d551182-4 jtMyqQ" aria-label="Toggle Sidebar" data-eventactionname="toggle sidebar"><div class="sc-da0402de-2 button-children"><svg xmlns="http://www.w3.org/2000/svg" width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none" stroke="#7D7D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panel-left"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path></svg></div></button></span></div><div class="sc-8d551182-5 iuytjp"><a href="https://you.com/?chatMode=default"><button class="sc-da0402de-1 dwsTsy sc-15640bf1-0 cBZrIA" data-eventactionname="new-chat" data-testid="chat-layout-new-chat-button" tabindex="-1"><div class="sc-da0402de-2 button-children"><div class="sc-15640bf1-1 gixrME"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg> New Chat</div></div></button></a></div><div data-testid="chat-history-container" id="chat-history-container" class="sc-8d551182-6 enTXnB"><div class="sc-f756a3fc-0 ftnHND"><div data-testid="chat-history-signed-out-prompt" class="sc-f756a3fc-4 dDwHUk"><img src="https://cdn.you.com/img/images/chrp/signed-out-chat-history.svg"><p class="sc-f756a3fc-5 iCnGwf">Sign in for free to save your chat history</p><button id="login-button" data-testid="sign-in-button" data-eventactionname="sign_in" class="sc-7111236d-0 eCbQkH sc-9d2b1b63-0 fJBNIS"><div aria-hidden="false" translate="no" class="sc-7111236d-1">Sign in</div></button></div></div></div></div><div class="sc-8d551182-7 enxYTT"><ul class="sc-43f3ab0-0 dUSlEd"><a aria-label="Open explore page" href="https://you.com/explore"><button tabindex="0" class="sc-6ff0daf1-0 iUtfzk"><div class="sc-6ff0daf1-1 tMVlQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg></div><div class="sc-6ff0daf1-2 fokThk"><p class="sc-eaff7515-0 ksXBfQ sc-6ff0daf1-3 gCuIMR">Explore</p></div></button></a><a target="_blank" data-testid="chat-layout-business-button" href="https://you.com/business"><button tabindex="0" class="sc-6ff0daf1-0 iUtfzk"><div class="sc-6ff0daf1-1 tMVlQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg></div><div class="sc-6ff0daf1-2 fokThk"><p class="sc-eaff7515-0 ksXBfQ sc-6ff0daf1-3 gCuIMR">Business</p></div></button></a><button aria-label="Open external app and extension links popover" tabindex="0" class="sc-6ff0daf1-0 iUtfzk"><div class="sc-6ff0daf1-1 tMVlQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg></div><div class="sc-6ff0daf1-2 fokThk"><p class="sc-eaff7515-0 ksXBfQ sc-6ff0daf1-3 gCuIMR">Download</p></div></button><div><button data-testid="user-dropdown-button" aria-label="Open settings popover" tabindex="0" class="sc-6ff0daf1-0 iUtfzk"><div class="sc-6ff0daf1-1 tMVlQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></div><div class="sc-6ff0daf1-2 fokThk"><p class="sc-eaff7515-0 ksXBfQ sc-6ff0daf1-3 gCuIMR">Settings</p></div></button></div><button aria-label="Open Social, legal and resource links popover" tabindex="0" class="sc-6ff0daf1-0 iUtfzk"><div class="sc-6ff0daf1-1 tMVlQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></div><div class="sc-6ff0daf1-2 fokThk"><p class="sc-eaff7515-0 ksXBfQ sc-6ff0daf1-3 gCuIMR">More</p></div></button></ul></div></div></div><div class="_1d9u1t04 _1d9u1t00" data-testid="[object Object]"><nav aria-label="Top Bar" class="iee2rg0 _1d9u1t05 z2kglu0"><div class="iee2rg1"><span data-state="closed" tabindex="-1"><button aria-label="open sidebar" data-eventactionname="toggle sidebar" data-testid="chat-layout-sidebar-toggle" class="z2kglu4 _1l5ztyh0 _1l5ztyh1 _1l5ztyh5 _1l5ztyh8 _1hbxawh0 _1hbxawh8 _1hbxawh1 _1hbxawh5 _1hbxawhd _1hbxawhs o71fut3" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-panel-left"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path></svg></button></span><span data-state="closed" tabindex="-1"><a href="https://you.com/?chatMode=default"><button aria-label="new chat" data-eventactionname="new chat" data-testid="chat-layout-new-chat" class="z2kglu4 _1l5ztyh0 _1l5ztyh1 _1l5ztyh5 _1l5ztyh8 _1hbxawh0 _1hbxawh8 _1hbxawh1 _1hbxawh5 _1hbxawhd _1hbxawhs o71fut3" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus"><circle cx="12" cy="12" r="10"></circle><path d="M8 12h8"></path><path d="M12 8v8"></path></svg></button></a></span></div><div class="iee2rg3"><button aria-label="Scroll to page top" class="_1qvfg0c0" type="button"><svg aria-labelledby="logoTitle" viewBox="0 0 28 28" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><title id="logoTitle">Logo for YOU.com</title><path fill-rule="evenodd" clip-rule="evenodd" d="M16.1088 1.47023C14.7617 0.768041 13.157 0.76804 11.8099 1.47023L2.50369 6.32129C0.965066 7.12333 0 8.71541 0 10.4517V19.3543C0 21.0905 0.965067 22.6826 2.50369 23.4847L11.8099 28.3357C12.2276 28.5534 12.67 28.7036 13.1218 28.7864V22.441C13.1218 18.7405 10.1219 15.7405 6.42132 15.7405H3.35025V14.0654H6.42132C10.1219 14.0654 13.1218 11.0655 13.1218 7.3649V4.29383H14.797V7.3649C14.797 11.0655 17.7969 14.0654 21.4975 14.0654H27.9188V10.4517C27.9188 8.71541 26.9537 7.12333 25.4151 6.32129L16.1088 1.47023ZM27.9188 15.7405H21.4975C17.7969 15.7405 14.797 18.7405 14.797 22.441V28.7864C15.2488 28.7036 15.6912 28.5534 16.1088 28.3357L25.4151 23.4847C26.9537 22.6826 27.9188 21.0905 27.9188 19.3543V15.7405Z" fill="url(#paint0_linear_2527_859)"></path><defs><linearGradient id="paint0_linear_2527_859" x1="27.9188" y1="0.943588" x2="0.076117" y2="28.8623" gradientUnits="userSpaceOnUse"><stop offset="0.15" stop-color="#A0A4EE"></stop><stop offset="0.8" stop-color="#596CED"></stop></linearGradient></defs></svg></button></div><div class="iee2rg2"><span data-state="closed" tabindex="-1" class="o71futr o71futd z2kglu4"><button aria-label="share chat" data-eventactionname="share chat" data-testid="chat-layout-share-chat" class="o71futr o71futd z2kglu4 _1l5ztyh0 _1l5ztyh1 _1l5ztyh5 _1l5ztyh8 _1hbxawh0 _1hbxawh8 _1hbxawh1 _1hbxawh5 _1hbxawhd _1hbxawhs o71fut3" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" x2="12" y1="2" y2="15"></line></svg></button></span><span data-state="closed" tabindex="-1" class="o71fut7 o71futx z2kglu5"><button aria-label="share chat" data-eventactionname="share chat" data-testid="chat-layout-share-chat" class=719https://you.com/search?q=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3Croot%3E%3C%2Froo&tbm=youchat&cfr=chat&cid=c0_34efab7d-e216-453d-a419-e5f2f046f4a2&chatMode=default376384658716007820992024224110115121028681
