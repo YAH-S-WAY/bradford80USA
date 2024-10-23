@@ -243,7 +243,253 @@ yahxmlns:dc="http://purl.org/dc/elements/1.1/"
 yahxmlns:atom="http://www.w3.org/2005/Atom	yahxmlns:sy="http://purl.org/rss/1.0/modules/syndication/yahxmlns:slash="http://purl.org/rss/1.0/modules/slash/yahxmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	>
-
+```<?yahxml.version="1.0"encoding="UTF-8"?>
+<root></root><?yahxml.version="1.0"encoding="UTF-8"?>
+<root>
+  <<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>>
+    <<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>"ABC"
+</<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>
+  </<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>>
+  <<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>.<?yahxml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>></<?yahxml.version="1.0"encoding="UTF-8"?>
+<root empty-array="true"></root>.<?xml.version="1.0"encoding="UTF-8"?>
+<1>"ABC"
+</1>>
+  <1>∅</1>
+</root>[0].root<?yahxml version="1.0"encoding="UTF-8"?>
+<root>
+  <element array="true">
+    <root>∅</rootUTF-8<?yahxml.version="1.0"encoding="UTF-8"?>
+{
+   $npm install --global smee-client
+$ smee -U https://smee.io/gSq8Bz0iHc2aqWx
+    $smee --help
+      $npm install --save smee - client
+  const smeeClient = required('smee-Client')
+        const smee = new smee client({
+                                    source:'https://smee.io/gSq8Bz0iHc2aq
+                                    Target:'https://localhost:3000/events',
+                                    logger: console
+})
+const events = smee.start()
+//stop forward events 
+events close()
+        "version": "2.12.4",
+        "build": {
+                "latest": true,
+                "rootDistro": "debian",
+                "tags": [
+                        "universal:${VERSION}-focal",
+                        "universal:${VERSION}-linux",
+                        "universal:${VERSION}"
+                ]
+        },
+        "dependencies": {
+                "annotation": "This document describes the base contents of the Universal image. Note that this image also includes detection logic to dynamically install additional language / runtime versions based on your repository's contents. Dynamically installed content can be found in sub-folders under `/opt`.",
+                "image": "ubuntu:focal",
+                "imageLink": "https://hub.docker.com/_/ubuntu",
+                "apt": [
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-cli",
+                                "annotation": "Docker CLI"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "moby-engine",
+                                "annotation": "Docker Engine"
+                        },
+                        {
+                                "cgIgnore": false,
+                                "name": "git-lfs",
+                                "annotation": "Git Large File Support"
+                        },
+                        "cmake",
+                        "build-essential",
+                        "cmake",
+                        "cppcheck",
+                        "valgrind",
+                        "lldb",
+                        "llvm",
+                        "gdb",
+                        "clang",
+                        "python3-dev",
+                        "vim",
+                        "vim-doc",
+                        "xtail",
+                        "software-properties-common",
+                        "libsecret-1-dev",
+                        "libnss3",
+                        "libnspr4",
+                        "libatk-bridge2.0-0",
+                        "libatk1.0-0",
+                        "libx11-6",
+                        "libpangocairo-1.0-0",
+                        "libx11-xcb1",
+                        "libcups2",
+                        "libxcomposite1",
+                        "libxdamage1",
+                        "libxfixes3",
+                        "libpango-1.0-0",
+                        "libgbm1",
+                        "libgtk-3-0",
+                        "openssh-server",
+                        "lxc",
+                        "pigz",
+                        "iptables",
+                        "tar",
+                        "g++",
+                        "gcc",
+                        "libc6-dev",
+                        "make",
+                        "pkg-config",
+                        "sed",
+                        "python3-minimal"
+                ],
+                "pipx": [
+                        "pylint",
+                        "flake8",
+                        "autopep8",
+                        "black",
+                        "yapf",
+                        "mypy",
+                        "pydocstyle",
+                        "pycodestyle",
+                        "bandit",
+                        "virtualenv",
+                        "pipx"
+                ],
+                "git": {
+                        "Oh My Zsh!": "/home/codespace/.oh-my-zsh",
+                        "nvm": "/usr/local/share/nvm",
+                        "nvs": "/usr/local/nvs",
+                        "rbenv": "/usr/local/share/rbenv",
+                        "ruby-build": "/usr/local/share/ruby-build"
+                },
+                "gem": [
+                        "rake",
+                        "ruby-debug-ide",
+                        "debase",
+                        "jekyll"
+                ],
+                "go": {
+                        "golang.org/x/tools/gopls": null,
+                        "honnef.co/go/tools": null,
+                        "golang.org/x/lint": null,
+                        "github.com/mgechev/revive": null,
+                        "github.com/uudashr/gopkgs": null,
+                        "github.com/ramya-rao-a/go-outline": null,
+                        "github.com/go-delve/delve": null,
+                        "github.com/golangci/golangci-lint": null
+                },
+                "pip": [
+                        "numpy",
+                        "pandas",
+                        "scipy",
+                        "matplotlib",
+                        "seaborn",
+                        "scikit-learn",
+                        "torch",
+                        "requests",
+                        "plotly",
+                        "jupyterlab_git",
+                        "certifi",
+                        "setuptools",
+                        "wheel"
+                ],
+                "other": {
+                        "git": {},
+                        "Xdebug": {
+                                "path": "/usr/local/php/current"
+                        },
+                        "Composer": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/php/current/bin"
+                        },
+                        "kubectl": null,
+                        "Helm": null,
+                        "Docker Compose": null,
+                        "SDKMAN!": null,
+                        "rvm": null,
+                        "GitHub CLI": null,
+                        "yarn": {
+                                "cgIgnore": true,
+                                "path": "/usr/bin"
+                        },
+                        "Maven": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/maven/current/bin"
+                        },
+                        "Gradle": {
+                                "cgIgnore": true,
+                                "path": "/usr/local/sdkman/candidates/gradle/current/bin"
+                        },
+                        "Docker (Moby) CLI & Engine": {
+                                "cgIgnore": true
+                        },
+                        "conda": {
+                                "cgIgnore": true,
+                                "path": "/opt/conda/bin"
+                        }
+                },
+                "languages": {
+                        "Node.js": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/share/nvm/versions/node | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/share/nvm/versions/node/&lt;version&gt;"
+                        },
+                        "Python": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/python | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/python/&lt;version&gt;"
+                        },
+                        "Java": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/sdkman/candidates/java | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/sdkman/candidates/java/&lt;version&gt;"
+                        },
+                        ".NET": {
+                                "cgIgnore": true,
+                                "versionCommand": "dotnet --version",
+                                "path": "/usr/share/dotnet/dotnet"
+                        },
+                        "Ruby": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/rvm/rubies | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/rvm/rubies/&lt;version&gt;"
+                        },
+                        "PHP": {
+                                "cgIgnore": true,
+                                "versionCommand": "ls /usr/local/php | grep -oE '[0-9]+\\.[0-9]+\\.[0-9]+'",
+                                "path": "/usr/local/php/&lt;version&gt;"
+                        },
+                        "GCC": {
+                                "cgIgnore": true
+                        },
+                        "Clang": {
+                                "cgIgnore": true
+                        },
+                        "Go": null,
+                        "Jekyll": {
+                                "cgIgnore": true
+                        },
+                        "Jupyter Lab": {
+                                "cgIgnore": true,
+                                "versionCommand": "jupyter-lab --version",
+                                "path": "/home/codespace/.local/bin/jupyter-lab",
+                                "downloadUrl": "https://jupyter.org/"
+                        }
+                }
+        }
+}
 <channel>
 	<title>admin - GitHub Changelog</title>
 	<atom:link href="https://github.blog/changelog/label/admin/feed/" rel="self" type="application/rss+xml" />
