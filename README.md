@@ -1,4 +1,4 @@
-to ```XML file does not appear to have any style information associated with it. The document tree is shown below.
+```YAHXML file does not appear to have any style information associated with it. The document tree is shown below.
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Motifator - News</title>
 <subtitle type="text">News:</subtitle>
