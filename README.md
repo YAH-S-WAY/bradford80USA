@@ -1,4 +1,4 @@
- ```XML file does not appear to have any style information associated with it. The document tree is shown below.
+to ```XML file does not appear to have any style information associated with it. The document tree is shown below.
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Motifator - News</title>
 <subtitle type="text">News:</subtitle>
@@ -222,7 +222,61 @@
 <![CDATA[ <p>KEYFAX NewMedia offices and studio complex to become Santa Cruz City Morgue&#8230; </p> ]]>
 </content>
 </entry>
-</feed>
+</feed>The document tree is shown below.
+<xs:schema xmlns:dei="http://xbrl.sec.gov/dei/2020-01-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:utr="http://www.xbrl.org/2009/utr" targetNamespace="http://xbrl.sec.gov/dei/2020-01-31" elementFormDefault="qualified">
+<xs:annotation>
+<xs:appinfo>
+<link:roleType id="cover" roleURI="http://xbrl.sec.gov/dei/role/document/Cover">
+<link:definition>995100 - Document - Cover</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="di" roleURI="http://xbrl.sec.gov/dei/role/document/DocumentInformation">
+<link:definition>995200 - Document - Document Information</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="ent" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformation">
+<link:definition>995400 - Document - Entity Information</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntitiesTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntitiesTable">
+<link:definition>995402 - Document - Entity Information, Entities [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntityAddressesTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntityAddressesTable">
+<link:definition>995403 - Document - Entity Information, Entity Addresses [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntityPhoneFaxNumbersTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntityPhoneFaxNumbersTable">
+<link:definition>995404 - Document - Entity Information, Entity Phone Fax Numbers [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntityListingsTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntityListingsTable">
+<link:definition>995405 - Document - Entity Information, Entity Listings [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntitySectorIndustryClassificationsTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntitySectorIndustryClassificationsTable">
+<link:definition>995406 - Document - Entity Information, Entity Sector Industry Classifications [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
+<link:usedOn>link:calculationLink</link:usedOn>
+<link:usedOn>link:definitionLink</link:usedOn>
+</link:roleType>
+<link:roleType id="EntityInformationEntityNorthAmericanIndustryClassificationsTable" roleURI="http://xbrl.sec.gov/dei/role/document/EntityInformationEntityNorthAmericanIndustryClassificationsTable">
+<link:definition>995407 - Document - Entity Information, Entity North American Industry Classifications [Table]</link:definition>
+<link:usedOn>link:presentationLink</link:usedOn>
 ```FIRE-TRACE"\import ("time")\while ("True"):\    
 "time.sleep(1.5)";\    
 print('hello world!')\import firetrace from 'firebase/app';\import 'firetrace/database';\const 
