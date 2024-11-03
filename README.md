@@ -1,3 +1,37 @@
+           Hello, Yahweh
+
+C⁶H¹²0⁶+⁰0²→6C0²+6H²0 Chemical equation for the combustion gluecose is a sugar that is used by the body for energy when gluecose is burned it reacts w/oxygen to produce carbon dioxide & water this reaction releases heat which is used by the body to power its activities the detailed of the solution are as follows: ##(1).The first step is to identify the reactants and products of the equation reactants are gluecose & oxygen & products are carbon dioxide and water. ##(2).Second step is to balence the equation this means (a); that we need to make sure that the number of atomsof each elements are the same on both sides of the equation in this case we need to add a coeffficent of 6 in front of the carbon dioxide on the product side. ##(3).Third step is to identify the type of reaction in this case the reaction is a combustion reaction this means that a hydrogen is reacting w/oxygen to produce carbon dioxide & water. 
+##(4).Fourth step is to explain the reactiomn in this case the gluecose is being oxidized by the oxygen to produce carbon dioxide & water the oxygen is being reduced by the gluecose to produce water. 
+##(5).Fifth step to write the net ionic equation that shows only reactants and products that are involved w/the reaction in this case the net ionic equation is: 
+##C⁶H¹²0⁶+60²→6C0²+6H²0 
+C⁶=molar mass 72.06 
+molar mass elemebts 
+C= 12.0107 
+CX6=100.00583% 
+*[molar mass 2002.11], 
+C-12.0107 
+H-1.00794 
+0-15.9994 
+*MOLAR MASS OF ELEMENTS* 
+CX7-4.1993146% 
+HX14-0.70481443% 
+mass per 
+0X119-95.096 1% 
+C6H12O66O26CO26H20 
+Molar Mass 1777.96 
+C-12.0107 
+Br-79.904 
+N-14.00674 
+mass elements 
+O-15.9994 
+H-1.00794 
+CX3-20.247303% 
+BrX1-44.89998% 
+NX2-15.741447% 
+mass percentage 
+OX2-17.980894% 
+HX2-1.1327714% 
+CBrCNC0NHOH
 ```YAHXML file does not appear to have any style information associated with it. The document tree is shown below.
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Motifator - News</title>
