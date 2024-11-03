@@ -1,6 +1,6 @@
            ##Hello, Yahweh
 
-       ```C⁶H¹²0⁶+⁰0²→6C0²+6H²0
+       ##C⁶H¹²0⁶+⁰0²→6C0²+6H²0
  
 ```Chemical equation for the combustion gluecose is a sugar that is used by the body for energy when gluecose is burned it reacts w/oxygen to produce carbon dioxide & water this reaction releases heat which is used by the body to power its activities the detailed of the solution are as follows:
  
