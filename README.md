@@ -351,23 +351,24 @@ yahxmlns:dc="http://purl.org/dc/elements/1.1/"
 yahxmlns:atom="http://www.w3.org/2005/Atom	yahxmlns:sy="http://purl.org/rss/1.0/modules/syndication/yahxmlns:slash="http://purl.org/rss/1.0/modules/slash/yahxmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	>
-```<?yahxml.version="1.0"encoding="UTF-8"?>
+# <?yahxml.version="1.0"encoding="UTF-8"?>
 <root></root><?yahxml.version="1.0"encoding="UTF-8"?>
 <root>
   <<?yahxml.version="1.0"encoding="UTF-8"?>
 <root empty-array="true"></root>>
-    <<?yahxml.version="1.0"encoding="UTF-8"?>
+ # <<?yahxml.version="1.0"encoding="UTF-8"?>
 <1>"ABC"
 </1>>"ABC"
 </<?yahxml.version="1.0"encoding="UTF-8"?>
 <1>"ABC"
 </1>>
-  </<?yahxml.version="1.0"encoding="UTF-8"?>
+# </<?yahxml.version="1.0"encoding="UTF-8"?>
 <root empty-array="true"></root>>
-  <<?yahxml.version="1.0"encoding="UTF-8"?>
+# <<?yahxml.version="1.0"encoding="UTF-8"?>
 <root empty-array="true"></root>.<?yahxml.version="1.0"encoding="UTF-8"?>
 <1>"ABC"
-</1>></<?yahxml.version="1.0"encoding="UTF-8"?>
+</1>>
+# </<?yahxml.version="1.0"encoding="UTF-8"?>
 <root empty-array="true"></root>.<?xml.version="1.0"encoding="UTF-8"?>
 <1>"ABC"
 </1>>
@@ -375,10 +376,12 @@ yahxmlns:atom="http://www.w3.org/2005/Atom	yahxmlns:sy="http://purl.org/rss/1.0/
 </root>[0].root<?yahxml version="1.0"encoding="UTF-8"?>
 <root>
   <element array="true">
-    <root>∅</rootUTF-8<?yahxml.version="1.0"encoding="UTF-8"?>
+    <root>∅</rootUTF-8
+# <?yahxml.version="1.0"encoding="UTF-8"?>
 {
    $npm install --global smee-client
-$ smee -U https://smee.io/gSq8Bz0iHc2aqWx
+$ smee -U 
+# https://smee.io/gSq8Bz0iHc2aqWx
     $smee --help
       $npm install --save smee - client
   const smeeClient = required('smee-Client')
@@ -612,7 +615,9 @@ events close()
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 
 <image>
-	<url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url>
+	<url>
+# https://github.blog/wp-content/uploads/2019/01/
+cropped-github-favicon-512.png?fit=32%2C32</url>
 	<title>admin - GitHub Changelog</title>
 	<link>https://github.blog/changelog/label/admin/</link>
 	<width>32</width>
@@ -620,7 +625,9 @@ events close()
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">153214340</site>	<item>
 		<title>Discover the GitHub Enterprise Cloud FAQ in the New GitHub Trust Center</title>
-		<link>https://github.blog/changelog/2024-10-01-discover-the-github-enterprise-cloud-faq-in-the-new-github-trust-center</link>
+		<link>
+# https://github.blog/changelog/2024-10-01-discover
+-the-github-enterprise-cloud-faq-in-the-new-github-trust-center</link>
 		
 		<dc:creator><![CDATA[Allison]]></dc:creator>
 		<pubDate>Tue, 01 Oct 2024 22:55:33 +0000</pubDate>
@@ -629,7 +636,7 @@ events close()
 					<description><![CDATA[<p>Discover the GitHub Enterprise Cloud FAQ in the New GitHub Trust Center</p>
 <p>The post <a href="https://github.blog/changelog/2024-10-01-discover-the-github-enterprise-cloud-faq-in-the-new-github-trust-center">Discover the GitHub Enterprise Cloud FAQ in the New GitHub Trust Center</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>Now you can find answers to commonly asked questions about GitHub Enterprise Cloud in the <strong>GitHub Trust Center</strong>, a comprehensive resource for understanding how GitHub meets security, privacy, and compliance standards. Designed with transparency in mind, this resource centralizes key information, empowering you to build on GitHub with complete confidence.</p>
+										# <content:encoded><![CDATA[<p>Now you can find answers to commonly asked questions about GitHub Enterprise Cloud in the <strong>GitHub Trust Center</strong>, a comprehensive resource for understanding how GitHub meets security, privacy, and compliance standards. Designed with transparency in mind, this resource centralizes key information, empowering you to build on GitHub with complete confidence.</p>
 <h4 id="key-highlights">Key Highlights:<a href="#key-highlights" class="heading-link pl-2 text-italic text-bold" aria-label="Key Highlights:"></a></h4>
 <ul>
 <li><strong>GitHub Enterprise Cloud FAQ</strong>: Addressing common questions on security, compliance, data residency, and privacy practices.
@@ -653,7 +660,9 @@ events close()
 		<post-id xmlns="com-wordpress:feed-additions:1">80248</post-id>	</item>
 		<item>
 		<title>Enterprise audit logs can be streamed to two endpoints (private beta)</title>
-		<link>https://github.blog/changelog/2024-09-03-enterprise-audit-logs-can-be-streamed-to-two-endpoints-private-beta</link>
+		<link>
+# https://github.blog/changelog/2024-09-03
+-enterprise-audit-logs-can-be-streamed-to-two-endpoints-private-beta</link>
 		
 		<dc:creator><![CDATA[Allison]]></dc:creator>
 		<pubDate>Tue, 03 Sep 2024 20:52:58 +0000</pubDate>
