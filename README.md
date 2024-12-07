@@ -6,15 +6,15 @@
  
 # (1).The first step is to identify the reactants and products of the equation reactants are gluecose & oxygen & products are carbon dioxide and water:
 
- ##(2).Second step is to balence the equation this means (a); that we need to make sure that the number of atomsof each elements are the same on both sides of the equation in this case we need to add a coeffficent of 6 in front of the carbon dioxide on the product side:
+# (2).Second step is to balence the equation this means (a); that we need to make sure that the number of atomsof each elements are the same on both sides of the equation in this case we need to add a coeffficent of 6 in front of the carbon dioxide on the product side:
 
- ##(3).Third step is to identify the type of reaction in this case the reaction is a combustion reaction this means that a hydrogen is reacting w/oxygen to produce carbon dioxide & water:
+# (3).Third step is to identify the type of reaction in this case the reaction is a combustion reaction this means that a hydrogen is reacting w/oxygen to produce carbon dioxide & water:
  
-##(4).Fourth step is to explain the reactiomn in this case the gluecose is being oxidized by the oxygen to produce carbon dioxide & water the oxygen is being reduced by the gluecose to produce water:
+# (4).Fourth step is to explain the reactiomn in this case the gluecose is being oxidized by the oxygen to produce carbon dioxide & water the oxygen is being reduced by the gluecose to produce water:
  
-##(5).Fifth step to write the net ionic equation that shows only reactants and products that are involved w/the reaction in this case the net ionic equation is:
+# (5).Fifth step to write the net ionic equation that shows only reactants and products that are involved w/the reaction in this case the net ionic equation is:
  
-##C⁶H¹²0⁶+60²→6C0²+6H²0
+# C⁶H¹²0⁶+60²→6C0²+6H²0
  
 C⁶=molar mass 72.06
  
