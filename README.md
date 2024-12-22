@@ -1,6 +1,26 @@
-                            #Hello, Yahweh
+YahwehRaphaBradford
 
-                 #C⁶H¹²0⁶+⁰0²→6C0²+6H²0
+ 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
+# Twingate Helm Charts https://twingate.github.io/Helm-Charts 
+
+soc-5 72.195.34.59 port:4145/10002/UDP 89.58.48.270 174.77.111.197:4145/172.217.216.239:4145 
+2001:d8b:85a3::8a2e:370:7334/64 
+
+# n=6,x=3.6,sigma=21.6,sigmax²=98.6 sx=2.03961,ó/x=1.86190,sum(x)>>21.6,same as(x);squaresum(x)>>variance formula sigma is(sq.rt.),sigma x²/N-μ²óxis=sqrt(x)/count(x)-(x/count (x))^2)>>1.861898672502525" "signal App+1609481754015"
+
+                  # Enterprise.Jesus 2012
+
+ "button stroke(3,0,0,70)>>Stroke:3,0,0,-70 button gradiant(26,0,5,-40,-10)>>gradiant:(26.0.5,-40,-10 black groundshift:-20 InputbackgroundShift:-20>>backgroud(azure)>>backgroundcolor of azure quiz sound (on) for favorite [FVinvest]>> favoriteapp.=FV invest f(x)= 1/sq.rt(2*π)*exp(-0.5*x²) N(n)=integ(f(x),x,0,-) + 0.5. variables definitions π=3.14159265358979 pi=3.1415926535897 a e=2.7182818284590 5 function definition FV(N)=Pr*(1+r)^(N) buttonstroke(3,-59,127,25)>>stroke:3,59,127,25 buttongradiant(40).82499.24,-78,-36)>>gradiant:40.82499,24,-78,-36 backgroundshift(1550)>> backgroundshift:1550 inputbackground(#00000000)>> backgroundcolorto#00000000)>>quizsound(on)favorite(FVinvest)>> favoriteapp.=FV(N)=p.*(1+r)Ñ clear()>>vars function cleared dialog(Linear) double,22.44.21.312 string4 integer4 23.5 load D-oxgen x86-32 x86-64 64 bit not available,0x68b34458 ∆P/P=2,4 plus/minus 0.6)*x100 king ER AI Delta*P/P=(2.6 plus/minus3)*10^6 |Delta*N|*N|<|.8*10^-6 Redstut z=0.68 k AM gta 2z=0.6 18 rioids 218+357*0b+9*wμ/μ)<3×10-72z=0.80089 #2≈16.12 height=10 heights=10.Sq=2(LW+2H+HN),A.5A1... site:ny times.com tallest building site:youtube.com cat videos. jaguar speed -car] Linear-4(1+8)+2(3p+6=-14:2-24 |-3_,|-2_,|-1 
+
+# 1. Capturing Button Strokes:** - If you're working with a graphical user interface (GUI), you typically need to set up event listeners to capture button clicks or key presses. - In web development, for example, you can use JavaScript to listen for button clicks like this: javascript document.getElementById('myButton').addEventListener('click', function() { alert('Button was clicked!'); });
+
+# 2. Handling Key Strokes:** - In desktop applications, you may want to capture keyboard input. Here’s an example in Python using the `tkinter` library: python import tkinter as tk def on_key_press(event): print(f'Key pressed: {event.char}') root = tk.Tk() root.bind('', on_key_press) root.mainloop() ``` **3. Game Development:** - If you’re developing a game, frameworks like Unity use different methods for handling button strokes. For instance, in C#: ```csharp void Update() { if (Input.GetKeyDown(KeyCode.Space)) { Debug.Log("Space bar was pressed!"); } }
+
+ # \(x=3\),\(x^2-2x+1\)? given that \(x=3\) substitute value of expression\(x^2-2x+1\) find its value(3)²-2(3)+1 evaluate this expression following order of operations first square the terms in parenthsis 9-6+1 add terms together 4 the true value is \(x^2-2x+1\) when \(x=3\) is \(4\)\(y=3-3+\) * **3-3**:part of the equation=0 https://api.
+
+                            # Hello, Yahweh
+
+                         # C⁶H¹²0⁶+⁰0²→6C0²+6H²0
  
 # Chemical equation for the combustion gluecose is a sugar that is used by the body for energy when gluecose is burned it reacts w/oxygen to produce carbon dioxide & water this reaction releases heat which is used by the body to power its activities the detailed of the solution are as follows:
  
