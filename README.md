@@ -1,16 +1,24 @@
 YahwehRaphaBradford
 
- 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
-# Twingate Helm Charts https://twingate.github.io/Helm-Charts 
+0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
 
-soc-5 72.195.34.59 port:4145/10002/UDP 89.58.48.270 174.77.111.197:4145/172.217.216.239:4145 
+         # Twingate Helm Charts 
+# https://twingate.github.io/Helm-Charts 
+
+# soc-5 72.195.34.59 port:4145/10002/UDP 89.58.48.270 174.77.111.197:4145/172.217.216.239:4145 
 2001:d8b:85a3::8a2e:370:7334/64 
 
-# n=6,x=3.6,sigma=21.6,sigmax²=98.6 sx=2.03961,ó/x=1.86190,sum(x)>>21.6,same as(x);squaresum(x)>>variance formula sigma is(sq.rt.),sigma x²/N-μ²óxis=sqrt(x)/count(x)-(x/count (x))^2)>>1.861898672502525" "signal App+1609481754015"
+# n=6,x=3.6,sigma=21.6,sigmax²=98.6 sx=2.03961,ó/x=1.86190,sum(x)>>21.6,same as(x);squaresum(x)>>
+# variance formula sigma is(sq.rt.),sigma x²/N-μ²óxis=sqrt(x)/count(x)-(x/count (x))^2)>>1.861898672502525" "signal App+1609481754015"
 
-                  # Enterprise.Jesus 2012
+                Enterprise.Jesus 2012
 
- "button stroke(3,0,0,70)>>Stroke:3,0,0,-70 button gradiant(26,0,5,-40,-10)>>gradiant:(26.0.5,-40,-10 black groundshift:-20 InputbackgroundShift:-20>>backgroud(azure)>>backgroundcolor of azure quiz sound (on) for favorite [FVinvest]>> favoriteapp.=FV invest f(x)= 1/sq.rt(2*π)*exp(-0.5*x²) N(n)=integ(f(x),x,0,-) + 0.5. variables definitions π=3.14159265358979 pi=3.1415926535897 a e=2.7182818284590 5 function definition FV(N)=Pr*(1+r)^(N) buttonstroke(3,-59,127,25)>>stroke:3,59,127,25 buttongradiant(40).82499.24,-78,-36)>>gradiant:40.82499,24,-78,-36 backgroundshift(1550)>> backgroundshift:1550 inputbackground(#00000000)>> backgroundcolorto#00000000)>>quizsound(on)favorite(FVinvest)>> favoriteapp.=FV(N)=p.*(1+r)Ñ clear()>>vars function cleared dialog(Linear) double,22.44.21.312 string4 integer4 23.5 load D-oxgen x86-32 x86-64 64 bit not available,0x68b34458 ∆P/P=2,4 plus/minus 0.6)*x100 king ER AI Delta*P/P=(2.6 plus/minus3)*10^6 |Delta*N|*N|<|.8*10^-6 Redstut z=0.68 k AM gta 2z=0.6 18 rioids 218+357*0b+9*wμ/μ)<3×10-72z=0.80089 #2≈16.12 height=10 heights=10.Sq=2(LW+2H+HN),A.5A1... site:ny times.com tallest building site:youtube.com cat videos. jaguar speed -car] Linear-4(1+8)+2(3p+6=-14:2-24 |-3_,|-2_,|-1 
+• button stroke(3,0,0,70)>>Stroke:3,0,0,-70 button gradiant(26,0,5,-40,-10)>>gradiant:(26.0.5,-40,-10 black groundshift:-20 
+* InputbackgroundShift:-20>>backgroud
+(azure)>>backgroundcolor of azure quiz sound (on) for favorite [FVinvest]>> favoriteapp.=FV invest f(x)= 1/sq.rt(2*π)*exp(-0.5*x²) N(n)=integ(f(x),x,0,-) + 0.5. variables definitions π=3.14159265358979 pi=3.1415926535897 a e=2.7182818284590 5 function definition FV(N)=Pr*(1+r)^(N)
+ * buttonstroke(3,-59,127,25)>>stroke:3,59,127,25 buttongradiant(40).82499.24,-78,-36)>>gradiant:40.82499,24,-78,-36 backgroundshift(1550)>> backgroundshift:1550 inputbackground(#00000000)>> backgroundcolorto#00000000)>>quizsound(on)favorite(FVinvest)>> favoriteapp.=FV(N)=p.*(1+r)Ñ clear()>>vars function cleared dialog(Linear) double,22.44.21.312 string4 integer4 23.5 load D-oxgen x86-32 x86-64 64 bit not 
+* available,0x68b34458 ∆P/P=2,4 plus/minus 0.6)
+* x100 king ER AI Delta*P/P=(2.6 plus/minus3)*10^6 |Delta*N|*N|<|.8*10^-6 Redstut z=0.68 k AM gta 2z=0.6 18 rioids 218+357*0b+9*wμ/μ)<3×10-72z=0.80089 #2≈16.12 height=10 heights=10.Sq=2(LW+2H+HN),A.5A1... site:ny times.com tallest building site:youtube.com cat videos. jaguar speed -car] Linear-4(1+8)+2(3p+6=-14:2-24 |-3_,|-2_,|-1 
 
 # 1. Capturing Button Strokes:** - If you're working with a graphical user interface (GUI), you typically need to set up event listeners to capture button clicks or key presses. - In web development, for example, you can use JavaScript to listen for button clicks like this: javascript document.getElementById('myButton').addEventListener('click', function() { alert('Button was clicked!'); });
 
